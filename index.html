@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook - Easy Tutorials Youtube Channel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a43ae5a09e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="left-nav">
+                <a href="/"><img src="./images/logo.png" alt="" class="logo"></a>
+                <ul>
+                    <li><a href="#"><img src="./images/notification.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/inbox.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/video.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <div class="search">
+                    <img src="./images/search.png" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="user-icon online" onclick="settingsMenuToggle()">
+                    <img src="./images/profile-pic.png" alt="">
+                </div>
+            </div>
+            <div class="settings-menu" id="settings">
+                <div id="dark-btn" >
+                    <span></span>
+                </div>
+                <div class="menu-profile">
+                    <div class="post-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div class="post-info">
+                            <h4>Jhon Nickolson</h4>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-profile">
+                        <img src="./images/feedback.png" alt="">
+                        <div class="post-info">
+                            <h4>Jhon Nickolson</h4>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="settings">
+                    <div class="more-settings">
+                        <img src="./images/setting.png" alt="">
+                        <a href="#">Settings & Privacy <img src="./images/arrow.png" alt=""></a>
+                    </div>
+                    <div class="more-settings">
+                        <img src="./images/help.png" alt="">
+                        <a href="#">Help & Support <img src="./images/arrow.png" alt=""></a>
+                    </div>
+                    <div class="more-settings">
+                        <img src="./images/display.png" alt="">
+                        <a href="#">Display & Accesibillity <img src="./images/arrow.png" alt=""></a>
+                    </div>
+                    <div class="more-settings">
+                        <img src="./images/logout.png" alt="">
+                        <a  href="#">Logout <img src="./images/arrow.png" alt=""></a>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+        <!----------Settings-->
+        
+    </header>
+    <div class="container">
+        <div class="left-side">
+            <div class="imp-links">
+                <a href="#"><img src="./images/news.png" alt=""> Latest news</a>
+                <a href="#"><img src="./images/friends.png" alt=""> Freinds</a>
+                <a href="#"><img src="./images/group.png" alt=""> Group</a>
+                <a href="#"><img src="./images/marketplace.png" alt=""> Marketplace</a>
+                <a href="#"><img src="./images/watch.png" alt=""> Watch</a>
+                <a href="#">See more</a>
+            </div>
+            <div class="shorcuts">
+                <h4> Your Shortcuts</h4>
+                <a href="#"><img src="./images/shortcut-1.png" alt=""> Web Developers</a>
+                <a href="#"><img src="./images/shortcut-2.png" alt=""> Web Desing Courses</a>
+                <a href="#"><img src="./images/shortcut-3.png" alt=""> Full Stqck Development</a>
+                <a href="#"><img src="./images/shortcut-4.png" alt=""> Website Experts</a>
+            </div>
+        </div>
+        <!---------------Main content-->
+        <div class="main-content">
+            <!-- sTORIES-->
+            <div class="stories">
+                <div class="main-story">
+                    <div class="add-story">
+                        <img class="" src="./images/upload.png" alt="">
+                        <p>Post Story</p>
+                    </div>
+                </div>
+                <div class="main-story main-story1">
+                    <div class="story-icon">
+                        <img src="./images/member-1.png" alt="">
+                        <p>Alison Mina</p>
+                    </div>
+                </div>
+                <div class="main-story main-story2">
+                    <div class="story-icon">
+                        <img src="./images/member-2.png" alt="">
+                        <p>Jackson Aston</p>
+                    </div>
+                </div>
+                <div class="main-story main-story3">
+                    <div class="story-icon">
+                        <img src="./images/member-3.png" alt="">
+                        <p>Samara Rose</p>
+                    </div>
+                </div>
+                <div class="main-story main-story4">
+                    <div class="story-icon">
+                        <img src="./images/member-4.png" alt="">
+                        <p>Maichel Js</p>
+                    </div>
+                </div>
+            </div>
+            <!-- WRITE POST-->
+            <div class="write-post">
+                <div class="post-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div class="post-info">
+                        <h4>Jhon Nickolson</h4>
+                        <p>Public <i class="fa-solid fa-caret-down"></i></p>
+                    </div>
+                </div>
+                <div class="write-post-input-media">
+                    <textarea name="" id=""  rows="3" placeholder="What's on your mind,John"></textarea>
+                    <div class="write-post-media">
+                        <div class="media-icon">
+                            <img src="./images/live-video.png" alt="">
+                             <p>Live video</p>
+                        </div>
+                        <div class="media-icon">
+                            <img src="./images/photo.png" alt="">
+                            <p>Photos/Videos</p>
+                        </div>
+                        <div class="media-icon">
+                            <img src="./images/feeling.png" alt="">
+                            <p>Feelings/Activity</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="posts">
+                <div class="post-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div class="post-info">
+                        <h4>Jhon Nickolson</h4>
+                        <p>June 24 2023,13:40 pm</p>
+                    </div>
+                    <div class="ellips">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>Subscribe <strong>@Easy Tutotials </strong>Youtube Channel to watch more videos on website development and Ui designs <span class="hash">#EasyTutorials #YoutubeChannel</span> </p>
+                </div>
+                <div class="post-pic">
+                    <img src="./images/feed-image-1.png" alt="">
+                </div>
+                <div class="reactions">
+                    <div class="react">
+                        <img src="./images/like-blue.png" alt="">
+                        <p>120</p>
+                    </div>
+                    <div class="react">
+                        <img src="./images/comments.png" alt="">
+                        <p>45</p>
+                    </div>
+                    <div class="react">
+                        <img src="./images/share.png" alt="">
+                        <p>20</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-profile">
+                    <img src="./images/member-1.png" alt="">
+                    <div class="post-info">
+                        <h4>Alison Mina</h4>
+                        <p>June 24 2023,13:40 pm</p>
+                    </div>
+                    <div class="ellips">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>Subscribe <strong>@Easy Tutotials </strong>Youtube Channel to watch more videos on website development and Ui designs <span class="hash">#EasyTutorials #YoutubeChannel</span> </p>
+                </div>
+                <div class="post-pic">
+                    <img src="./images/feed-image-2.png" alt="">
+                </div>
+                <div class="reactions">
+                    <div class="react">
+                        <img src="./images/like-blue.png" alt="">
+                        <p>120</p>
+                    </div>
+                    <div class="react">
+                        <img src="./images/comments.png" alt="">
+                        <p>45</p>
+                    </div>
+                    <div class="react">
+                        <img src="./images/share.png" alt="">
+                        <p>20</p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-profile">
+                    <img src="./images/member-1.png" alt="">
+                    <div class="post-info">
+                        <h4>Alison Mina</h4>
+                        <p>June 24 2023,13:40 pm</p>
+                    </div>
+                    <div class="ellips">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>Subscribe <strong>@Easy Tutotials </strong>Youtube Channel to watch more videos on website development and Ui designs <span class="hash">#EasyTutorials #YoutubeChannel</span> </p>
+                </div>
+                <div class="post-pic">
+                    <img src="./images/feed-image-2.png" alt="">
+                </div>
+                <div class="reactions">
+                    <div class="react">
+                        <img src="./images/like-blue.png" alt="">
+                        <p>120</p>
+                    </div>
+                    <div class="react">
+                        <img src="./images/comments.png" alt="">
+                        <p>45</p>
+                    </div>
+                    <div class="react">
+                        <img src="./images/share.png" alt="">
+                        <p>20</p>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <button>Load more</button>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2021 - Easy Tutorials Youtube Channel</p>
+            </div>
+            
+            
+
+
+        </div>
+        <!--------------Right side-->
+        <div class="right-side">
+            <div class="events">
+                <div class="right-side-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+                <div class="event">
+                    <div class="events-date">
+                        <p>18</p>
+                        <span>March</span>
+                    </div>
+                    <div class="events-info">
+                        <h4>Social Media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="events-date">
+                        <p>22</p>
+                        <span>Juin</span>
+                    </div>
+                    <div class="events-info">
+                        <h4>Mobile marketing</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ads">
+                <div class="right-side-title">
+                    <h4>Advertismnent</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="./images/advertisement.png" alt="" class="img-ads">
+            </div>
+            <div class="conversation">
+                <div class="right-side-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide All</a>
+                </div>
+                <div class="online-chats">
+                    <div class="chats-icon online">
+                        <img src="./images/member-1.png">
+                    </div>
+                    <p>Alison Mina</p>
+                </div>
+                <div class="online-chats">
+                    <div class="chats-icon online">
+                        <img src="./images/member-2.png">
+                    </div>
+                    <p>Jackson Aston</p>
+                </div>
+                <div class="online-chats">
+                    <div class="chats-icon online">
+                        <img src="./images/member-3.png">
+                    </div>
+                    <p>Samara Rose</p>
+                </div>
+            </div>
+        </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
